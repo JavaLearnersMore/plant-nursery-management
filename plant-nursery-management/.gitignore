@@ -13,6 +13,10 @@ target/
 .springBeans
 .sts4-cache
 bin/
+.metadata/
+.recommenders/
+Servers/
+RemoteSystemsTempFiles/
 
 ### IntelliJ IDEA ###
 .idea
@@ -35,11 +39,5 @@ build/
 
 ### Local / secrets ###
 *.log
-application.properties
+application-local.properties
 .env
-
-### Secrets / Local Config ###
-**/application.properties
- 
-### Eclipse workspace ###
-.metadata/
